@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The History of Pizza</title>
+    <!-- Favicon link pointing to pizza.jpg -->
+    <link rel="icon" type="image/jpeg" href="pizza.jpg">
+    <style>
+        :root {
+            --red: #C82333;
+            --white: #F8F9FA;
+            --green: #28A745;
+            --dark: #212529;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--white);
+            color: var(--dark);
+        }
+
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://unsplash.com') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        header p {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin-top: 10px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--red);
+        }
+
+        h2 {
+            color: var(--red);
+            font-size: 2rem;
+            margin-top: 0;
+        }
+
+        .timeline {
+            position: relative;
+            margin: 30px 0;
+            padding-left: 30px;
+            border-left: 3px solid var(--green);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 25px;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -37px;
+            top: 5px;
+            background: var(--green);
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .time {
+            font-weight: bold;
+            color: var(--green);
+            display: block;
+            font-size: 1.1rem;
+        }
+
+        .highlight-box {
+            background-color: #E8F5E9;
+            border: 1px solid var(--green);
+            padding: 20px;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+
+        .highlight-box h3 {
+            margin-top: 0;
+            color: var(--green);
+        }
+
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 6px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The History of Pizza</h1>
+        <p>From ancient flatbreads to a global culinary icon</p>
+    </header>
+
+    <div class="container">
+
+        <section id="origins">
+            <h2>1. Ancient Origins</h2>
+            <p>Although modern pizza is deeply tied to Italy, the practice of baking flatbreads with toppings dates back thousands of years across the Mediterranean:</p>
+            <ul>
+                <li><strong>Ancient Egypt:</strong> Flatbreads shaped and colored like the sun were prepared after the discovery of yeast.</li>
+                <li><strong>Ancient Greece:</strong> Citizens ate <em>plakuntos</em>, a dough garnished with herbs, spices, garlic, and onions.</li>
+                <li><strong>Persian Empire:</strong> Soldiers under King Darius I the Great cooked flatbreads on their shields, topping them with melted cheese and dates.</li>
+            </ul>
+        </section>
+
+        <section id="naples">
+            <h2>2. The Birthplace: Naples</h2>
+            <p>Pizza as we know it today <strong>was born in the city of Naples, Italy, during the 18th century</strong>. In its beginnings, it was a humble, affordable food eaten by working-class street vendors and laborers.</p>
+            <p>The game changer was the introduction of the <strong>tomato</strong> from the Americas to Europe. Initially, people believed tomatoes were poisonous and only used them as decorative plants. However, necessity and resourcefulness led Neapolitan peasants to add them to their flatbreads, creating the foundation of modern pizza.</p>
+            
+            <div class="highlight-box">
+                <h3>The Origin of Pizza Margherita (1889)</h3>
+                <p>In June 1889, Neapolitan pizza chef <strong>Raffaele Esposito</strong> was asked to prepare pizzas for the visiting King Umberto I and Queen Margherita of Savoy. The queen chose her favorite: a combination that beautifully represented the colors of the Italian flag.</p>
+                <ul>
+                    <li>🔴 <strong>Tomato:</strong> Red</li>
+                    <li>⚪ <strong>Mozzarella:</strong> White</li>
+                    <li>🟢 <strong>Basil:</strong> Green</li>
+                </ul>
+                <p>In her honor, this iconic style was named <strong>Pizza Margherita</strong>.</p>
+            </div>
+        </section>
+
+        <section id="globalization">
+            <h2>3. Global Domination</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="time">1905</span>
+                    <p>Mass Italian immigration brought the recipe to the United States. In this year, <strong>Lombardi's</strong> opened in Little Italy (New York City), officially recognized as the first pizzeria in North America.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="time">Post-World War II</span>
+                    <p>Allied soldiers returning home from Europe brought back a massive craving for pizza, popularizing it across Western countries and sparking the rise of global fast-food franchises.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="time">Today</span>
+                    <p>Today, pizza stands as one of the most popular and adapted dishes on Earth, evolving alongside local cultures with endless variations of crusts and creative toppings.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - World Kitchen Chronicles. Made with flavor.</p>
+    </footer>
+
+</body>
+</html>
