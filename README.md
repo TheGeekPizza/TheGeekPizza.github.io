@@ -1,3 +1,2 @@
 # TheGeekPizza.github.io
-thegeekpizza.github.io in beta!
-who disliked my website
+thegeekpizza.github.io in alpha!
